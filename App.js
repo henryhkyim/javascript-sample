@@ -17,11 +17,11 @@ var app = document.getElementById("App");
 function displayDish(dish) {
   return `
   <div class='block'>
-	<img class='block-img' src=${dish.photo}>
-	<div class='block-detail'>
-      <h1 class='block-name'>${dish.name}</h1>
-	  <p>${dish.tips}</p>
-	</div>
+		<img class='block-img' src=${dish.photo}>
+		<div class='block-detail'>
+	      <h1 class='block-name'>${dish.name}</h1>
+		  <p>${dish.tips}</p>
+		</div>
   </div>
   `
 }

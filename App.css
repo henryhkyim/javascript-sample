@@ -2,14 +2,12 @@ body {
   font-family: Calibri, Arial;
   background-color: #B3E8FF;
   margin: 0px;
+  padding: 0px;
 }
 
 #header {
   width: 1000px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px auto 0px auto;
 }
 
 #header ul {
@@ -30,18 +28,20 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  border: 1px solid #B3E8FF;
+  border: 1px solid #999999;
 }
 
 #header ul li a.activemenu {
   background-color: #B3E8FF;
-  border: 1px solid #CCCCCC;
+  border: 1px solid #00096A;
   color: #00096A;
   font-weight: bold;
 }
 
 #header ul li a:hover {
   background: #B3E8FF;
+  color: #00096A;
+  font-weight: bold;
 }
 
 #header p {
@@ -52,19 +52,15 @@ body {
 
 #App {
   width: 1000px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0px auto;
   clear: both;
 }
 
 .block {
   min-height: 200px;
-  margin: 10px auto;
+  margin: 0px auto 10px auto;
   padding: 10px;
-  border: 3px solid #CCCCCC;
-  border-radius: 5px;
+  border: 1px solid #999999;
   overflow: visible;
 }
 
@@ -72,17 +68,38 @@ body {
   margin: 10px;
   width: 26%;
   float: left;
-  /*border: 1px solid #CCCCCC;*/
 }
 
 .block-detail {
   margin: 0px 10px;
   width: 68%;
   float: right;
-  /*border: 1px solid #CCCCCC;*/
 }
 
 .block-name {
   margin: 0px;
   padding: 0px;
+}
+
+#inputquote {
+  clear: both;
+  background-color: #CCCCCC;
+  width: 1000px;
+  margin: 0px auto 10px auto;
+  border: 1px solid #999999;
+  min-height: 40px;
+}
+
+#inputquote p {
+  float: left;
+  padding: 10px;
+  margin: 0px;
+  color: #00096A;
+  font-weight: bold;
+}
+
+#inputquote #symbol {
+  margin: 10px;
+  width: 300px;
+  font-size: 16px;
 }
